@@ -1,0 +1,15 @@
+tasks:
+  evaluate_cv:
+    agent: cv_evaluator
+    inputs:
+      - job_description
+      - cv_text
+    outputs:
+      - match_score
+  generate_suggestions:
+    agent: suggestion_generator
+    inputs:
+      - cv_text
+      - job_description
+    outputs:
+      - suggestions

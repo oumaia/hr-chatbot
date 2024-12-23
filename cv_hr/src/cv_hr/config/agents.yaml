@@ -1,0 +1,7 @@
+agents:
+  cv_evaluator:
+    description: "Evaluates CV against job description."
+    model: "gemini-1.5-flash"
+  suggestion_generator:
+    description: "Provides tailored suggestions for CV improvement."
+    model: "gemini-1.5-flash"
