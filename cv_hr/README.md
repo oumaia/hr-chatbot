@@ -20,7 +20,7 @@ The **HR Chatbot: CV Helper** is an AI-powered tool designed to evaluate resumes
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/hr-chatbot.git
+git clone https://github.com/oumaia/hr-chatbot.git
 cd hr-chatbot
 
    ```
